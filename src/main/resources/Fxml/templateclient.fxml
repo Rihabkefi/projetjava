@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="680.0" prefWidth="933.0" stylesheets="@../CSS/Style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controlleur.acceuilclient">
+   <children>
+      <Text layoutX="328.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to GYMTIME" textAlignment="CENTER" wrappingWidth="277.568359375">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Text>
+      <ButtonBar layoutX="119.0" layoutY="193.0" prefHeight="168.0" prefWidth="323.0">
+        <buttons>
+          <Button fx:id="btncours" mnemonicParsing="false" onAction="#listcours" prefHeight="185.0" prefWidth="277.0" text="Cours" />
+        </buttons>
+      </ButtonBar>
+      <Button fx:id="btncoach" layoutX="509.0" layoutY="191.0" mnemonicParsing="false" onAction="#listcoach" prefHeight="168.0" prefWidth="277.0" text="Coach" />
+      <Button fx:id="btnpublication" layoutX="165.0" layoutY="411.0" mnemonicParsing="false" onAction="#publication" prefHeight="160.0" prefWidth="277.0" text="Publication" />
+      <Button fx:id="signup" layoutX="509.0" layoutY="411.0" mnemonicParsing="false" onAction="#pagesignin" prefHeight="160.0" prefWidth="277.0" text="Sign up" />
+   </children>
+</AnchorPane>
