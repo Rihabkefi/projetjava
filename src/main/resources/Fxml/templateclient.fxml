@@ -20,6 +20,6 @@
       </ButtonBar>
       <Button fx:id="btncoach" layoutX="509.0" layoutY="191.0" mnemonicParsing="false" onAction="#listcoach" prefHeight="168.0" prefWidth="277.0" text="Coach" />
       <Button fx:id="btnpublication" layoutX="165.0" layoutY="411.0" mnemonicParsing="false" onAction="#publication" prefHeight="160.0" prefWidth="277.0" text="Publication" />
-      <Button fx:id="signup" layoutX="509.0" layoutY="411.0" mnemonicParsing="false" onAction="#pagesignin" prefHeight="160.0" prefWidth="277.0" text="Sign up" />
+      <Button fx:id="signup" layoutX="509.0" layoutY="411.0" mnemonicParsing="false" onAction="#pagesignin" prefHeight="160.0" prefWidth="277.0" text="Logout" />
    </children>
 </AnchorPane>

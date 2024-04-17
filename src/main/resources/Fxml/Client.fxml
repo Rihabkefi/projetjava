@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import org.controlsfx.control.Rating?>
+
+<AnchorPane fx:id="side" prefHeight="550.0" prefWidth="832.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controlleur.ClientControlleur">
+    <children>
+        <ImageView fx:id="imgc1" fitHeight="67.0" fitWidth="91.0" layoutX="43.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../img/C1.png" />
+            </image>
+        </ImageView>
+        <TextField fx:id="tc1" layoutX="16.0" layoutY="103.0" prefHeight="26.0" prefWidth="121.0" />
+        <TextField fx:id="tc111" layoutX="158.0" layoutY="103.0" prefHeight="26.0" prefWidth="141.0" />
+        <TextField fx:id="tc1111" layoutX="316.0" layoutY="103.0" prefHeight="26.0" prefWidth="142.0" />
+        <ImageView fitHeight="26.0" fitWidth="31.0" layoutX="213.0" layoutY="64.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../img/emaillll.jpg" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="26.0" fitWidth="26.0" layoutX="374.0" layoutY="64.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../img/phonnnene.png" />
+            </image>
+        </ImageView>
+        <TextField fx:id="tc2" layoutX="16.0" layoutY="210.0" prefHeight="26.0" prefWidth="121.0" />
+        <TextField fx:id="tc22" layoutX="155.0" layoutY="210.0" prefHeight="26.0" prefWidth="141.0" />
+        <TextField fx:id="tc2222" layoutX="325.0" layoutY="210.0" prefHeight="26.0" prefWidth="142.0" />
+        <ImageView fx:id="imgc11" fitHeight="67.0" fitWidth="67.0" layoutX="44.0" layoutY="137.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../img/c2.jpg" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="26.0" fitWidth="26.0" layoutX="374.0" layoutY="170.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../img/phonnnene.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="26.0" fitWidth="26.0" layoutX="213.0" layoutY="170.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../img/emaillll.jpg" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="imgc111" fitHeight="67.0" fitWidth="67.0" layoutX="44.0" layoutY="248.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../img/C3.png" />
+            </image>
+        </ImageView>
+        <TextField fx:id="tc3" layoutX="16.0" layoutY="322.0" prefHeight="26.0" prefWidth="121.0" />
+        <TextField fx:id="tc33" layoutX="155.0" layoutY="322.0" prefHeight="26.0" prefWidth="141.0" />
+        <TextField fx:id="tc3333" layoutX="325.0" layoutY="322.0" prefHeight="26.0" prefWidth="142.0" />
+        <ImageView fitHeight="26.0" fitWidth="26.0" layoutX="213.0" layoutY="289.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../img/emaillll.jpg" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="26.0" fitWidth="26.0" layoutX="374.0" layoutY="289.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../img/phonnnene.png" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="imgc1111" fitHeight="67.0" fitWidth="67.0" layoutX="43.0" layoutY="362.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../img/c4.jpg" />
+            </image>
+        </ImageView>
+        <TextField fx:id="tc4" layoutX="16.0" layoutY="431.0" prefHeight="26.0" prefWidth="121.0" />
+        <TextField fx:id="tc44" layoutX="158.0" layoutY="431.0" prefHeight="26.0" prefWidth="141.0" />
+        <TextField fx:id="tc4444" layoutX="329.0" layoutY="431.0" prefHeight="26.0" prefWidth="142.0" />
+        <ImageView fitHeight="26.0" fitWidth="26.0" layoutX="213.0" layoutY="396.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../img/emaillll.jpg" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="26.0" fitWidth="26.0" layoutX="374.0" layoutY="396.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../img/phonnnene.png" />
+            </image>
+        </ImageView>
+        <Rating fx:id="rating" layoutX="523.0" layoutY="104.0" prefHeight="19.0" prefWidth="142.0" />
+        <Rating fx:id="rating1" layoutX="523.0" layoutY="207.0" prefHeight="19.0" prefWidth="142.0" />
+        <Rating fx:id="rating11" layoutX="523.0" layoutY="319.0" prefHeight="19.0" prefWidth="142.0" />
+        <Rating fx:id="rating111" layoutX="535.0" layoutY="428.0" prefHeight="19.0" prefWidth="142.0" />
+    </children>
+</AnchorPane>
