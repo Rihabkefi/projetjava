@@ -64,12 +64,10 @@ public class ClientControlleur implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         // Appel pour afficher les détails du coach avec l'ID 8 dans tc1, tc11 et tc1111
-        afficherNomPrenomCoach(21, tc1, tc111, tc1111);
+        afficherNomPrenomCoach(1, tc1, tc111, tc1111);
 
         // Appel pour afficher les détails du coach avec l'ID 10 dans tc2, tc22 et tc2222
-        afficherNomPrenomCoach(22, tc2, tc22, tc2222);
-        afficherNomPrenomCoach(23, tc3, tc33, tc3333);
-        afficherNomPrenomCoach(24, tc4, tc44, tc4444);
+        afficherNomPrenomCoach(2, tc2, tc22, tc2222);
 
     }
 

@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="670.0" prefWidth="779.0" stylesheets="@../CSS/styles.css"
+<AnchorPane prefHeight="670.0" prefWidth="779.0" stylesheets="@../CSS/SSTYLE.css"
             xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
             fx:controller="Controlleur.ComController">
     <children>
@@ -34,7 +34,7 @@
                 <TableColumn fx:id="colIdPub" prefWidth="77.60003662109375" text="idPub" />
             </columns>
         </TableView>
-        <Label alignment="CENTER" layoutX="240.0" layoutY="34.0" prefHeight="35.0" prefWidth="388.0" styleClass="title" stylesheets="@../CSS/styles.css" text="GESTION COMMENTAIRES" />
+        <Label alignment="CENTER" layoutX="240.0" layoutY="34.0" prefHeight="35.0" prefWidth="388.0" styleClass="title" stylesheets="@../CSS/SSTYLE.css" text="GESTION COMMENTAIRES" />
         <ButtonBar layoutX="147.0" layoutY="416.0" prefHeight="40.0" prefWidth="466.0">
             <buttons>
                 <Button fx:id="btnSave" mnemonicParsing="false" onAction="#createCommentaire" text="Save" />

@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane onMouseClicked="#getData" prefHeight="597.0" prefWidth="868.0" styleClass="form_container" stylesheets="@../CSS/styles.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controlleur.PubController">
+<AnchorPane onMouseClicked="#getData" prefHeight="597.0" prefWidth="868.0" styleClass="form_container" stylesheets="@../CSS/SSTYLE.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controlleur.PubController">
     <children>
         <VBox prefHeight="200.0" prefWidth="100.0" />
         <VBox layoutX="14.0" layoutY="155.0" prefHeight="214.0" prefWidth="336.0" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="155.0">
@@ -23,7 +23,7 @@
 
             </children>
         </VBox>
-        <TableView fx:id="table" layoutX="399.0" layoutY="162.0" onMouseClicked="#getData" prefHeight="200.0" prefWidth="441.0" AnchorPane.rightAnchor="27.399999999999977" AnchorPane.topAnchor="162.0">
+        <TableView fx:id="table" layoutX="413.0" layoutY="138.0" onMouseClicked="#getData" prefHeight="233.0" prefWidth="441.0" stylesheets="@../CSS/SSTYLE.css" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="138.0">
             <columns>
                 <TableColumn fx:id="colIdPub" prefWidth="77.5999755859375" text="idPub" />
                 <TableColumn fx:id="colContent" prefWidth="132.79996490478516" text="content" />
@@ -32,14 +32,14 @@
             </columns>
         </TableView>
         <Label alignment="CENTER" layoutX="240.0" layoutY="43.0" prefHeight="35.0" prefWidth="388.0" styleClass="title" stylesheets="@../CSS/styles.css" text="GESTION DES PUBLICATIONS" />
-        <ButtonBar layoutX="182.0" layoutY="418.0" prefHeight="40.0" prefWidth="466.0">
+        <ButtonBar layoutX="98.0" layoutY="418.0" prefHeight="40.0" prefWidth="550.0">
             <buttons>
                 <Button fx:id="btnSave" mnemonicParsing="false" onAction="#createPublication" text="Ajouter" />
-                <Button fx:id="btnUpdate" layoutX="401.0" layoutY="17.0" mnemonicParsing="false" onAction="#updatePublication" text="Modifier" />
-                <Button fx:id="btnDelete" layoutX="401.0" layoutY="17.0" mnemonicParsing="false" onAction="#deletePublication" text="Supprimer" />
-                <Button fx:id="btnClear" layoutX="401.0" layoutY="17.0" mnemonicParsing="false" onAction="#clearField" text="Actualiser" />
+                <Button fx:id="btnUpdate" layoutX="401.0" layoutY="17.0" mnemonicParsing="false" onAction="#updatePublication" prefWidth="86.0" text="Modifier" />
+                <Button fx:id="btnDelete" layoutX="401.0" layoutY="17.0" mnemonicParsing="false" onAction="#deletePublication" prefHeight="36.0" prefWidth="127.0" text="Supprimer" />
+                <Button fx:id="btnClear" layoutX="401.0" layoutY="17.0" mnemonicParsing="false" onAction="#clearField" prefHeight="36.0" prefWidth="145.0" text="Actualiser" />
             </buttons>
         </ButtonBar>
-        <Button fx:id="gererCommentaires" layoutX="729.0" layoutY="528.0" mnemonicParsing="false" onAction="#gererCommentaires" prefHeight="40.0" prefWidth="257.0" styleClass="title" text="Suivant" AnchorPane.leftAnchor="729.0" AnchorPane.topAnchor="528.0" />
+        <Button fx:id="gererCommentaires" layoutX="644.0" layoutY="539.0" mnemonicParsing="false" onAction="#gererCommentaires" prefHeight="52.0" prefWidth="127.0" styleClass="title" stylesheets="@../CSS/SSTYLE.css" text="Suivant" AnchorPane.leftAnchor="644.0" AnchorPane.topAnchor="539.0" />
     </children>
 </AnchorPane>
