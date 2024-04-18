@@ -79,6 +79,21 @@ public class acceuilcontrolleur {
 
     @FXML
     void showpub(ActionEvent event) {
+        try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/Fxml/Publications.fxml"));
+            Parent showpub = loader.load();
+
+            PubController pubController = loader.getController();
+
+
+            crudContainer.getChildren().setAll(showpub);
+
+            Stage primaryStage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+
+            primaryStage.show();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
     }
 
